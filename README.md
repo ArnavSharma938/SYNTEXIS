@@ -1,4 +1,7 @@
 # Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought
+[![arXiv](https://img.shields.io/badge/arXiv-2401.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2401.XXXXX)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
@@ -98,4 +101,5 @@ python src/main.py --evaluate --model_name mistral-math --dataset_size 4
   primaryClass={cs.LG},
   note={Presented at TBD, CortexPD Labs and Yee-Collins Research Group}
 }
+
 ```
