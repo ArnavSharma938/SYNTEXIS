@@ -1,0 +1,32 @@
+[project]
+name = "syntexis"
+version = "1.0.0"
+description = "Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+dependencies = [
+    "numpy==2.1.3",
+    "pandas>=2.1.0",
+    "boto3==1.28.62",
+    "requests==2.31.0",
+    "sentence-transformers==2.2.2",
+    "jupyter==1.0.0",
+    "python-dotenv==1.0.0",
+    "scikit-learn==1.6.1",
+    "scipy>=1.7.0",
+    "openai",
+    "huggingface_hub",
+    "tqdm",
+    "pyarrow",
+    "sympy",
+    "transformers>=4.47.0",
+    "torch",
+    "accelerate",
+    "bitsandbytes",
+    "latex2sympy2",
+    "trl",
+    "fsspec==2024.3.1",
+    "hf_xet"
+]

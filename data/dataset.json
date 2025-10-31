@@ -1,0 +1,1317 @@
+{
+  "problems": [
+    {
+      "id": "Gauss-Summation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the sum of the first 100 positive integers.",
+      "gold": { "type": "expr", "value": "5050" },
+      "comment": "Source: Uses the arithmetic progression sum formula S = n(a1+an)/2. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Easy. Type: Algebra (Series)."
+    },
+    {
+      "id": "Pythagorean-Theorem",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "In a right triangle with legs 3 and 4, find the hypotenuse.",
+      "gold": { "type": "expr", "value": "5" },
+      "comment": "Source: Uses the Pythagorean theorem. Euclid, Elements, Book I, Proposition 47 (Heath translation, 1956). Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Euclidean-Algorithm-GCD",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute gcd(84, 30).",
+      "gold": { "type": "integer", "value": "6" },
+      "comment": "Source: Uses the Euclidean algorithm. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Easy. Type: Number Theory."
+    },
+    {
+      "id": "LCM-From-GCD-Identity",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Find lcm(12, 18).",
+      "gold": { "type": "integer", "value": "36" },
+      "comment": "Source: Uses gcd·lcm = ab. Niven, I.; Zuckerman, H. S.; Montgomery, H. L. (1991). An Introduction to the Theory of Numbers, 6th ed., Wiley. Difficulty: Easy. Type: Number Theory."
+    },
+    {
+      "id": "Factorial-Evaluation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Evaluate 6!.",
+      "gold": { "type": "integer", "value": "720" },
+      "comment": "Source: Uses factorial definition and basic counting. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Easy. Type: Combinatorics."
+    },
+    {
+      "id": "Binomial-Coefficient-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute the binomial coefficient C(10, 4).",
+      "gold": { "type": "integer", "value": "210" },
+      "comment": "Source: Uses n!/(k!(n−k)!). Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Easy. Type: Combinatorics."
+    },
+    {
+      "id": "Binomial-Theorem-Coefficient-Extraction",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Find the coefficient of x^3 in (1 + x)^6.",
+      "gold": { "type": "integer", "value": "20" },
+      "comment": "Source: Uses the Binomial Theorem. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Easy. Type: Algebra (Polynomials)."
+    },
+    {
+      "id": "Common-Logarithm-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute log10(1000).",
+      "gold": { "type": "expr", "value": "3" },
+      "comment": "Source: Uses base-10 logarithm rules. Larson, R. (2016). Precalculus, 10th ed., Cengage. Difficulty: Easy. Type: Algebra."
+    },
+    {
+      "id": "Natural-Logarithm-Exponent-Rule",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ln(e^4).",
+      "gold": { "type": "expr", "value": "4" },
+      "comment": "Source: Uses ln(a^b) = b·ln(a) and ln(e)=1. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Algebra."
+    },
+    {
+      "id": "Degree-To-Radian-Conversion",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Convert 270 degrees to radians.",
+      "gold": { "type": "expr", "value": "3*pi/2" },
+      "comment": "Source: Uses π radians = 180°. Larson, R. (2016). Precalculus, 10th ed., Cengage. Difficulty: Easy. Type: Trigonometry."
+    },
+    {
+      "id": "Circle-Circumference-Formula",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the circumference of a circle with radius 7 cm.",
+      "gold": { "type": "expr", "value": "14*pi" },
+      "comment": "Source: Uses C = 2πr. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Disk-Area-Formula",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the area of a circle with radius 3 cm.",
+      "gold": { "type": "expr", "value": "9*pi" },
+      "comment": "Source: Uses A = πr^2. Spivak, M. (2008). Calculus, 4th ed., Publish or Perish. Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Rectangle-Area-Computation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute the area of a rectangle with length 11 m and width 9 m.",
+      "gold": { "type": "expr", "value": "99" },
+      "comment": "Source: Uses area = length × width. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Triangle-Area-From-Base-Height",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the area of a triangle with base 12 cm and height 5 cm.",
+      "gold": { "type": "expr", "value": "30" },
+      "comment": "Source: Uses A = (1/2)bh. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Cube-Volume-Computation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the volume of a cube with side length 4 cm.",
+      "gold": { "type": "expr", "value": "64" },
+      "comment": "Source: Uses V = s^3. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Geometry (Solid)."
+    },
+    {
+      "id": "Rectangular-Prism-Volume-Computation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the volume of a rectangular prism with dimensions 3 cm × 4 cm × 5 cm.",
+      "gold": { "type": "expr", "value": "60" },
+      "comment": "Source: Uses V = lwh. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Geometry (Solid)."
+    },
+    {
+      "id": "Dice-Probability-Sum-Seven",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Two fair six-sided dice are rolled. What is the probability their sum is 7?",
+      "gold": { "type": "expr", "value": "1/6" },
+      "comment": "Source: Uses discrete uniform outcomes and counting. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Easy. Type: Probability."
+    },
+    {
+      "id": "Coin-Probability-Two-Heads",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Two fair coins are tossed. What is the probability of getting two heads?",
+      "gold": { "type": "expr", "value": "1/4" },
+      "comment": "Source: Uses independence and a sample space of size 4. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Easy. Type: Probability."
+    },
+    {
+      "id": "Monty-Hall-Problem",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "In the classic Monty Hall problem with three doors, what is the probability of winning the car if you switch?",
+      "gold": { "type": "expr", "value": "2/3" },
+      "comment": "Source: Standard Monty Hall formulation. Wikipedia — Monty Hall problem: https://en.wikipedia.org/wiki/Monty_Hall_problem. Difficulty: Easy. Type: Probability (Conditional)."
+    },
+    {
+      "id": "Average-Speed-Two-Legs-Trip",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A trip consists of 60 km at 30 km/h and then 60 km at 60 km/h. What is the average speed for the 120 km trip (km/h)?",
+      "gold": { "type": "expr", "value": "40" },
+      "comment": "Source: Uses average speed = total distance / total time. Stewart, J. (2015). Calculus, 8th ed., Cengage. Difficulty: Easy. Type: Applied Math (Rates)."
+    },
+    {
+      "id": "Arithmetic-Mean-Of-Three-Numbers",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the arithmetic mean of 2, 7, and 10.",
+      "gold": { "type": "expr", "value": "19/3" },
+      "comment": "Source: Uses the arithmetic mean definition. Freedman, D.; Pisani, R.; Purves, R. (2007). Statistics, 4th ed., W. W. Norton. Difficulty: Easy. Type: Statistics."
+    },
+    {
+      "id": "Harmonic-Mean-Of-Two-Numbers",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute the harmonic mean of 4 and 6.",
+      "gold": { "type": "expr", "value": "24/5" },
+      "comment": "Source: Uses HM = 2ab/(a+b). Freedman, D.; Pisani, R.; Purves, R. (2007). Statistics, 4th ed., W. W. Norton. Difficulty: Easy. Type: Statistics."
+    },
+    {
+      "id": "Euclidean-Distance-Between-Points",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the distance between the points (2, 3) and (7, 11).",
+      "gold": { "type": "expr", "value": "sqrt(89)" },
+      "comment": "Source: Uses the distance formula from the Pythagorean theorem. Larson, R. (2016). Precalculus, 10th ed., Cengage. Difficulty: Easy. Type: Analytic Geometry."
+    },
+    {
+      "id": "Slope-Of-A-Line-Through-Two-Points",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the slope of the line through (1, 2) and (5, 10).",
+      "gold": { "type": "expr", "value": "2" },
+      "comment": "Source: Uses m = (y2−y1)/(x2−x1). Larson, R. (2016). Precalculus, 10th ed., Cengage. Difficulty: Easy. Type: Analytic Geometry."
+    },
+    {
+      "id": "Vieta-Formulas-Sum-Of-Roots",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "For x^2 − 8x + 15 = 0 with roots r1 and r2, compute r1 + r2.",
+      "gold": { "type": "expr", "value": "8" },
+      "comment": "Source: Uses Viète's formulas (sum = −b/a). Schaum's Outline (2014). College Algebra, McGraw–Hill. Difficulty: Easy. Type: Algebra (Polynomials)."
+    },
+    {
+      "id": "Vieta-Formulas-Product-Of-Roots",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "For x^2 − 8x + 15 = 0 with roots r1 and r2, compute r1*r2.",
+      "gold": { "type": "expr", "value": "15" },
+      "comment": "Source: Uses Viète's formulas (product = c/a). Schaum's Outline (2014). College Algebra, McGraw–Hill. Difficulty: Easy. Type: Algebra (Polynomials)."
+    },
+    {
+      "id": "Power-Rule-Derivative-Of-x-Cubed",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Differentiate f(x) = x^3 with respect to x.",
+      "gold": { "type": "expr", "value": "3*x**2" },
+      "comment": "Source: Uses the power rule d(x^n)/dx = n x^{n−1}. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Calculus (Differentiation)."
+    },
+    {
+      "id": "Definite-Integral-Linear-Function",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^1 x dx.",
+      "gold": { "type": "expr", "value": "1/2" },
+      "comment": "Source: Uses antiderivative x^2/2 and the Fundamental Theorem. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Easy. Type: Calculus (Integration)."
+    },
+    {
+      "id": "Sine-Limit-At-Zero-Identity",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute lim_{x->0} (sin x)/x.",
+      "gold": { "type": "expr", "value": "1" },
+      "comment": "Source: Uses the classic sine limit (geometric/series proofs). Spivak, M. (2008). Calculus, 4th ed., Publish or Perish. Difficulty: Easy. Type: Calculus (Limits)."
+    },
+    {
+      "id": "Polygon-Diagonals-Counting",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many diagonals does a convex hexagon have?",
+      "gold": { "type": "integer", "value": "9" },
+      "comment": "Source: Uses the formula n(n−3)/2. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Easy. Type: Combinatorics/Geometry."
+    },
+    {
+      "id": "Permutation-Count-Factorial-Rule",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many permutations are there of 5 distinct objects?",
+      "gold": { "type": "integer", "value": "120" },
+      "comment": "Source: Uses counting via factorial. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Easy. Type: Combinatorics."
+    },
+    {
+      "id": "Modular-Arithmetic-Last-Digit-Cycle",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Find the last digit of 7^100.",
+      "gold": { "type": "integer", "value": "1" },
+      "comment": "Source: Uses modular exponentiation cycles modulo 10. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Easy. Type: Number Theory."
+    },
+    {
+      "id": "Geometric-Progression-Sum-Finite",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Sum the finite geometric series 1 + 2 + 4 + ... + 2^9.",
+      "gold": { "type": "expr", "value": "1023" },
+      "comment": "Source: Uses S_n = a(1−r^n)/(1−r). Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Easy. Type: Algebra (Series)."
+    },
+    {
+      "id": "Chinese-Remainder-Theorem",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Solve the system of congruences: x ≡ 1 (mod 4), x ≡ 2 (mod 5), x ≡ 3 (mod 7). Give the smallest positive solution.",
+      "gold": { "type": "integer", "value": "17" },
+      "comment": "Source: Uses the Chinese Remainder Theorem. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Euler-Totient-Function",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute Euler's totient function φ(840).",
+      "gold": { "type": "integer", "value": "192" },
+      "comment": "Source: Uses multiplicativity of φ and prime factorization. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Inclusion-Exclusion-Principle",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many integers from 1 to 100 (inclusive) are divisible by 2, 3, or 5?",
+      "gold": { "type": "integer", "value": "74" },
+      "comment": "Source: Uses the Inclusion–Exclusion Principle. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Medium. Type: Combinatorics."
+    },
+    {
+      "id": "Stars-and-Bars-Theorem",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many solutions in nonnegative integers are there to x1 + x2 + x3 = 10?",
+      "gold": { "type": "integer", "value": "66" },
+      "comment": "Source: Uses stars and bars (combinations with repetition). Bona, M. (2016). A Walk Through Combinatorics, 4th ed., World Scientific. Difficulty: Medium. Type: Combinatorics."
+    },
+    {
+      "id": "Derangements-Counting",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many derangements (permutations with no fixed points) are there of 6 elements?",
+      "gold": { "type": "integer", "value": "265" },
+      "comment": "Source: Uses the subfactorial !n formula. Bona, M. (2016). A Walk Through Combinatorics, 4th ed., World Scientific. Difficulty: Medium. Type: Combinatorics."
+    },
+    {
+      "id": "Catalan-Numbers",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute the 10th Catalan number C_10.",
+      "gold": { "type": "integer", "value": "16796" },
+      "comment": "Source: Uses C_n = (1/(n+1)) * binomial(2n, n). Bona, M. (2016). A Walk Through Combinatorics, 4th ed., World Scientific. Difficulty: Medium. Type: Combinatorics."
+    },
+    {
+      "id": "Fibonacci-Numbers",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute F_20 in the Fibonacci sequence with F_0=0, F_1=1.",
+      "gold": { "type": "integer", "value": "6765" },
+      "comment": "Source: Uses linear recurrences/closed forms for Fibonacci numbers. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Medium. Type: Number Theory/Combinatorics."
+    },
+    {
+      "id": "Even-Binomial-Sum",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Evaluate the sum of even-index binomial coefficients: ∑_{k even} binomial(20, k).",
+      "gold": { "type": "integer", "value": "524288" },
+      "comment": "Source: Uses symmetry via (1+1)^n and (1−1)^n. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Medium. Type: Combinatorics/Algebra."
+    },
+    {
+      "id": "Hypergeometric-Probability",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "In a standard 52-card deck, what is the probability that a 5-card hand contains exactly 2 aces?",
+      "gold": { "type": "expr", "value": "binomial(4,2)*binomial(48,3)/binomial(52,5)" },
+      "comment": "Source: Uses the hypergeometric distribution. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Medium. Type: Probability."
+    },
+    {
+      "id": "Geometric-Distribution-Expectation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A biased coin has probability p=1/3 of landing heads. What is the expected number of tosses until the first head?",
+      "gold": { "type": "expr", "value": "3" },
+      "comment": "Source: Uses expectation of geometric distribution E[T]=1/p. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Medium. Type: Probability."
+    },
+    {
+      "id": "Telescoping-Series-Partial-Fractions",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute the sum S = ∑_{k=1}^{50} 1/(k(k+1)).",
+      "gold": { "type": "expr", "value": "50/51" },
+      "comment": "Source: Uses telescoping via 1/(k(k+1)) = 1/k − 1/(k+1). Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Medium. Type: Series."
+    },
+    {
+      "id": "Limit-Exponential-Sequence",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate lim_{n→∞} [(1 + 1/n)^{n+1}] / e.",
+      "gold": { "type": "expr", "value": "1" },
+      "comment": "Source: Uses definition of e and limit laws. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Medium. Type: Calculus (Limits)."
+    },
+    {
+      "id": "Integral-Exponential-Quotient",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^{ln 2} e^x/(1+e^x) dx.",
+      "gold": { "type": "expr", "value": "log(3/2)" },
+      "comment": "Source: Substitution u=1+e^x gives ln(1+e^x). Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Medium. Type: Calculus (Integration)."
+    },
+    {
+      "id": "Integral-Logarithm-Linear",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^1 log(1+x) dx (natural logarithm).",
+      "gold": { "type": "expr", "value": "2*log(2) - 1" },
+      "comment": "Source: Integration by parts or antiderivative approach. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Medium. Type: Calculus (Integration)."
+    },
+    {
+      "id": "Basel-Problem-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate the series ∑_{n=1}^{∞} 1/n^2.",
+      "gold": { "type": "expr", "value": "pi**2/6" },
+      "comment": "Source: Basel problem (Euler's result). Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Medium. Type: Series."
+    },
+    {
+      "id": "De-Moivre-Formula",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute (1 + i)^{10}.",
+      "gold": { "type": "expr", "value": "32*i" },
+      "comment": "Source: Uses De Moivre's formula for complex powers. Wikipedia — De Moivre's formula: https://en.wikipedia.org/wiki/De_Moivre%27s_formula. Difficulty: Medium. Type: Complex Numbers."
+    },
+    {
+      "id": "Determinant-Calculation-3x3",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute det([[2,1,3],[0,-1,4],[5,2,0]]).",
+      "gold": { "type": "integer", "value": "19" },
+      "comment": "Source: Uses cofactor expansion/properties of determinants. Strang, G. (2016). Introduction to Linear Algebra, 5th ed., Wellesley–Cambridge Press. Difficulty: Medium. Type: Linear Algebra."
+    },
+    {
+      "id": "Matrix-Inverse-Entry",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "For A = [[1,2],[3,4]], find the (1,1) entry of A^{-1}.",
+      "gold": { "type": "expr", "value": "-2" },
+      "comment": "Source: Uses the 2×2 inverse formula. Lay, D. C.; Lay, S. R.; McDonald, J. J. (2016). Linear Algebra and Its Applications, 5th ed., Pearson. Difficulty: Medium. Type: Linear Algebra."
+    },
+    {
+      "id": "Derivative-Exponential-Exponential",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find d/dx [x^x] at x=1.",
+      "gold": { "type": "expr", "value": "1" },
+      "comment": "Source: Logarithmic differentiation gives x^x(ln x + 1). Spivak, M. (2008). Calculus, 4th ed., Publish or Perish. Difficulty: Medium. Type: Calculus (Differentiation)."
+    },
+    {
+      "id": "Shoelace-Formula",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Using coordinates (0,0), (2,1), (1,3), (−1,2), compute the polygon's area (ordered cyclically).",
+      "gold": { "type": "expr", "value": "5" },
+      "comment": "Source: Uses the shoelace formula for polygon area. Wikipedia — Shoelace formula: https://en.wikipedia.org/wiki/Shoelace_formula. Difficulty: Medium. Type: Geometry (Analytic)."
+    },
+    {
+      "id": "Sum-of-Divisors-Function",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute σ(360), the sum of positive divisors of 360.",
+      "gold": { "type": "integer", "value": "1170" },
+      "comment": "Source: Uses multiplicativity of σ(n) via prime powers. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "CRT-Linear-Congruence-Reduction",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Solve the congruence 35x ≡ 10 (mod 45) for the least nonnegative residue.",
+      "gold": { "type": "integer", "value": "8" },
+      "comment": "Source: Uses linear congruence reduction via gcd and modular inverses. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Geometry-Law-of-Cosines-Application",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "In triangle ABC, a=7, b=8, and angle C=60°. Compute side c using the Law of Cosines.",
+      "gold": { "type": "expr", "value": "sqrt(57)" },
+      "comment": "Source: Uses the Law of Cosines c^2 = a^2 + b^2 − 2ab cos C. Stewart, J. (2015). Calculus, 8th ed., Cengage. Difficulty: Medium. Type: Geometry/Trigonometry."
+    },
+    {
+      "id": "Harmonic-Series-Partial-Sum-Bound",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute H_10 = ∑_{k=1}^{10} 1/k as an exact rational in simplest form.",
+      "gold": { "type": "expr", "value": "7381/2520" },
+      "comment": "Source: Uses definition of harmonic numbers and common denominator reduction. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Medium. Type: Series."
+    },
+    {
+      "id": "Binomial-Alternating-Sum-Identity",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Evaluate S = ∑_{k=0}^{10} (−1)^k * binomial(10, k).",
+      "gold": { "type": "integer", "value": "0" },
+      "comment": "Source: Uses (1−1)^{10} binomial identity. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Medium. Type: Combinatorics/Algebra."
+    },
+    {
+      "id": "Power-Series-Log-Expansion-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Using the series for log(1+x), evaluate ∑_{k=1}^{∞} (−1)^{k+1}/k at x=1 (i.e., log 2).",
+      "gold": { "type": "expr", "value": "log(2)" },
+      "comment": "Source: Uses Mercator series for natural logarithm. Apostol, T. M. Calculus, Vol. 1, 2nd ed., Wiley. Difficulty: Medium. Type: Series."
+    },
+    {
+      "id": "AM-GM-Inequality-Equality-Case",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "For positive reals x,y with fixed sum x+y=10, what is the maximum of the product xy?",
+      "gold": { "type": "expr", "value": "25" },
+      "comment": "Source: Uses AM–GM inequality with equality at x=y. Hardy, G. H.; Littlewood, J. E.; Pólya, G. (1952). Inequalities, Cambridge University Press. Difficulty: Medium. Type: Algebra/Inequalities."
+    },
+    {
+      "id": "Quadratic-Recurrence-Closed-Form",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Let a_0=1, a_1=3, and a_n = 4a_{n−1} − 3a_{n−2}. Compute a_5.",
+      "gold": { "type": "integer", "value": "243" },
+      "comment": "Source: Solves linear recurrence via characteristic equation r^2−4r+3=0. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Medium. Type: Algebra/Recurrences."
+    },
+    {
+      "id": "Matrix-Norm-Frobenius-Example",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute the Frobenius norm of A = [[1,2,2],[0,-1,3]].",
+      "gold": { "type": "expr", "value": "sqrt(19)" },
+      "comment": "Source: Frobenius norm ||A||_F = sqrt(sum of squares of entries). Lay, D. C.; Lay, S. R.; McDonald, J. J. (2016). Linear Algebra and Its Applications, 5th ed., Pearson. Difficulty: Medium. Type: Linear Algebra."
+    },
+    {
+      "id": "Geometric-Mean-Inequality-Three-Numbers",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "For positive a,b,c with abc=8, find the minimum of a + b + c.",
+      "gold": { "type": "expr", "value": "6" },
+      "comment": "Source: AM–GM with equality at a=b=c=2. Hardy, G. H.; Littlewood, J. E.; Pólya, G. (1952). Inequalities, Cambridge University Press. Difficulty: Medium. Type: Algebra/Inequalities."
+    },
+    {
+      "id": "Geometric-Series-Rational-Sum",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate the infinite geometric series ∑_{k=0}^{∞} (3/5)^k.",
+      "gold": { "type": "expr", "value": "5/2" },
+      "comment": "Source: Uses S = 1/(1−r) for |r|<1. Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Medium. Type: Series."
+    },
+    {
+      "id": "Probability-Binomial-Exact-k",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A fair coin is tossed 10 times. What is the probability of exactly 6 heads?",
+      "gold": { "type": "expr", "value": "binomial(10,6)/2**10" },
+      "comment": "Source: Uses binomial distribution with p=1/2. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Medium. Type: Probability."
+    },
+    {
+      "id": "Expected-Value-Of-Discrete-Variable",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A discrete random variable X takes values 1,2,3 with probabilities 1/2, 1/3, 1/6 respectively. Compute E[X].",
+      "gold": { "type": "expr", "value": "5/3" },
+      "comment": "Source: Uses E[X]=∑x p(x). Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Medium. Type: Probability."
+    },
+    {
+      "id": "Fermat-Little-Theorem-Exponentiation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute 2^1000 modulo 101.",
+      "gold": { "type": "integer", "value": "1" },
+      "comment": "Source: Uses Fermat's Little Theorem a^{p-1} ≡ 1 (mod p). Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Hard. Type: Number Theory (Modular Arithmetic)."
+    },
+    {
+      "id": "Pell-Equation-Minimal-Solution",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "For x^2 − 61y^2 = 1, give the minimal positive x in the fundamental solution.",
+      "gold": { "type": "integer", "value": "1766319049" },
+      "comment": "Source: Pell equations and continued fractions. Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Hard. Type: Number Theory (Diophantine)."
+    },
+    {
+      "id": "Zeta-Function-At-Four",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate the series ∑_{n=1}^{∞} 1/n^4.",
+      "gold": { "type": "expr", "value": "pi**4/90" },
+      "comment": "Source: Classic Euler evaluation of ζ(4). Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Series/Analysis."
+    },
+    {
+      "id": "Wallis-Product-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate the infinite product ∏_{n=1}^{∞} (4n^2)/(4n^2 − 1).",
+      "gold": { "type": "expr", "value": "pi/2" },
+      "comment": "Source: Wallis product for π. Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Infinite Products/Analysis."
+    },
+    {
+      "id": "Log-Sine-Integral",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute ∫_0^{pi/2} log(sin x) dx.",
+      "gold": { "type": "expr", "value": "-pi*log(2)/2" },
+      "comment": "Source: Standard definite integral via Fourier series/complex analysis. Gradshteyn, I. S.; Ryzhik, I. M. (2007). Table of Integrals, Series, and Products, 7th ed., Academic Press. Difficulty: Hard. Type: Analysis (Integrals)."
+    },
+    {
+      "id": "Trigonometric-Product-Identity",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∏_{k=1}^{9} sin(k*pi/10).",
+      "gold": { "type": "expr", "value": "5/256" },
+      "comment": "Source: Finite sine product formula ∏_{k=1}^{n-1} sin(kπ/n)=n/2^{n-1}. Wikipedia — Trigonometric identities (finite products). https://en.wikipedia.org/wiki/List_of_trigonometric_identities. Difficulty: Hard. Type: Trigonometry (Products)."
+    },
+    {
+      "id": "Cayley-Formula-Spanning-Trees",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many spanning trees does the complete graph K_8 have?",
+      "gold": { "type": "integer", "value": "262144" },
+      "comment": "Source: Cayley's formula K_n has n^{n−2} spanning trees. Diestel, R. (2017). Graph Theory, 5th ed., Springer. Difficulty: Hard. Type: Graph Theory."
+    },
+    {
+      "id": "Hook-Length-Formula-Tableaux-3x3",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many standard Young tableaux are there of shape 3×3?",
+      "gold": { "type": "integer", "value": "42" },
+      "comment": "Source: Hook-length formula for standard Young tableaux. Stanley, R. P. (1999). Enumerative Combinatorics, Vol. 2, Cambridge Univ. Press. Difficulty: Hard. Type: Combinatorics."
+    },
+    {
+      "id": "Expected-Maximum-Uniforms",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Let X_1,...,X_5 be i.i.d. Uniform(0,1). Compute E[max(X_1,...,X_5)].",
+      "gold": { "type": "expr", "value": "5/6" },
+      "comment": "Source: Order statistics for Uniform(0,1). Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Hard. Type: Probability (Order Statistics)."
+    },
+    {
+      "id": "Quartic-Integral-Reciprocal",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^{infty} dx/(1 + x^4).",
+      "gold": { "type": "expr", "value": "pi/(2*sqrt(2))" },
+      "comment": "Source: Standard improper integral via residues. Gradshteyn, I. S.; Ryzhik, I. M. (2007). Table of Integrals, 7th ed., Academic Press. Difficulty: Hard. Type: Analysis (Integrals)."
+    },
+    {
+      "id": "Sine-Integral-Dirichlet",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute ∫_0^{infty} (sin x)/x dx.",
+      "gold": { "type": "expr", "value": "pi/2" },
+      "comment": "Source: Dirichlet integral. Ahlfors, L. V. (1979). Complex Analysis, 3rd ed., McGraw–Hill. Difficulty: Hard. Type: Analysis (Integrals)."
+    },
+    {
+      "id": "Hilbert-Matrix-Determinant",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute det(H_3) for the 3×3 Hilbert matrix H with entries H_{ij}=1/(i+j−1).",
+      "gold": { "type": "expr", "value": "1/2160" },
+      "comment": "Source: Closed form determinants for Hilbert matrices. Wikipedia — Hilbert matrix. https://en.wikipedia.org/wiki/Hilbert_matrix. Difficulty: Hard. Type: Linear Algebra."
+    },
+    {
+      "id": "Vandermonde-Determinant-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Evaluate det(V) for the 4×4 Vandermonde matrix with x-values 0,1,2,3.",
+      "gold": { "type": "integer", "value": "12" },
+      "comment": "Source: Vandermonde determinant ∏_{j<k}(x_k−x_j). Wikipedia — Vandermonde matrix. https://en.wikipedia.org/wiki/Vandermonde_matrix. Difficulty: Hard. Type: Linear Algebra."
+    },
+    {
+      "id": "Beta-Function-Integral-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute ∫_0^1 x^{1/2}(1−x)^{1/2} dx.",
+      "gold": { "type": "expr", "value": "pi/8" },
+      "comment": "Source: Beta function B(3/2,3/2). Abramowitz, M.; Stegun, I. A. (1965). Handbook of Mathematical Functions, Dover. Difficulty: Hard. Type: Special Functions."
+    },
+    {
+      "id": "Gaussian-Integral-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_{−infty}^{infty} e^{−x**2} dx.",
+      "gold": { "type": "expr", "value": "sqrt(pi)" },
+      "comment": "Source: Gaussian integral. Spivak, M. (2008). Calculus, 4th ed., Publish or Perish. Difficulty: Hard. Type: Analysis (Integrals)."
+    },
+    {
+      "id": "Coupon-Collector-Expectation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Expected number of trials to see all 6 faces when rolling a fair die repeatedly.",
+      "gold": { "type": "expr", "value": "147/10" },
+      "comment": "Source: Coupon collector expectation m·H_m. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Hard. Type: Probability."
+    },
+    {
+      "id": "Exponential-Max-Expectation",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "If X1,X2,X3 are i.i.d. Exp(1), compute E[max(X1,X2,X3)].",
+      "gold": { "type": "expr", "value": "11/6" },
+      "comment": "Source: Order statistics for exponentials (means equal harmonic numbers). Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Hard. Type: Probability (Order Statistics)."
+    },
+    {
+      "id": "Wilsons-Theorem-Residue",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute (28!) modulo 29.",
+      "gold": { "type": "integer", "value": "28" },
+      "comment": "Source: Wilson's Theorem (p−1)! ≡ −1 (mod p). Burton, D. M. (2011). Elementary Number Theory, 7th ed., McGraw–Hill. Difficulty: Hard. Type: Number Theory."
+    },
+    {
+      "id": "Poisson-Kernel-Integral-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^{2*pi} dθ / (5 − 4 cos θ).",
+      "gold": { "type": "expr", "value": "2*pi/3" },
+      "comment": "Source: Standard integral ∫_0^{2π} dθ/(a−b cosθ)=2π/√(a^2−b^2), a>|b|. Gradshteyn, I. S.; Ryzhik, I. M. (2007). Table of Integrals, 7th ed., Academic Press. Difficulty: Hard. Type: Analysis (Integrals)."
+    },
+    {
+      "id": "Viete-Product-Identity-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∏_{k=1}^{infty} cos(pi/(2**(k+1))).",
+      "gold": { "type": "expr", "value": "2/pi" },
+      "comment": "Source: Viète's product identity ∏ cos(x/2^k) = sin x / x at x=π/2. Wikipedia — Viète's formula. https://en.wikipedia.org/wiki/Vi%C3%A8te%27s_formula. Difficulty: Hard. Type: Infinite Products."
+    },
+    {
+      "id": "Odd-Basel-Sum-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∑_{n=1}^{infty} 1/(2n−1)^2.",
+      "gold": { "type": "expr", "value": "pi**2/8" },
+      "comment": "Source: Relation to ζ(2) by separating even/odd terms. Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Series."
+    },
+    {
+      "id": "Odd-Zeta-Fourth-Power-Sum-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∑_{n=1}^{infty} 1/(2n−1)^4.",
+      "gold": { "type": "expr", "value": "pi**4/96" },
+      "comment": "Source: From ζ(4) by parity separation. Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Series."
+    },
+    {
+      "id": "Surjection-Counting-Functions",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many onto functions are there from a 6-element set to a 3-element set?",
+      "gold": { "type": "integer", "value": "540" },
+      "comment": "Source: Inclusion–exclusion for surjections. Rosen, K. H. (2019). Discrete Mathematics and Its Applications, 8th ed., McGraw–Hill. Difficulty: Hard. Type: Combinatorics."
+    },
+    {
+      "id": "Tridiagonal-Determinant-Path-Matrix",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Compute det([[2,−1,0],[−1,2,−1],[0,−1,2]]).",
+      "gold": { "type": "integer", "value": "4" },
+      "comment": "Source: Determinant of symmetric tridiagonal Toeplitz matrix. Strang, G. (2016). Introduction to Linear Algebra, 5th ed., Wellesley–Cambridge Press. Difficulty: Hard. Type: Linear Algebra."
+    },
+    {
+      "id": "Alternating-Basel-Sum-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∑_{n=1}^{infty} (−1)^{n+1}/n^2.",
+      "gold": { "type": "expr", "value": "pi**2/12" },
+      "comment": "Source: Fourier series for square wave / Dirichlet eta at s=2. Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Series."
+    },
+    {
+      "id": "Laplace-Cosine-Integral-Value",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^{infty} e^{−2x} cos(3x) dx.",
+      "gold": { "type": "expr", "value": "2/13" },
+      "comment": "Source: Laplace transform ∫_0^∞ e^{−ax}cos(bx)dx = a/(a^2+b^2). Apostol, T. M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Analysis (Transforms)."
+    },
+    {
+      "id": "Binomial-Identity-Reciprocal-Sum",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Compute S = ∑_{k=0}^{9} (−1)^k * binomial(9,k)/(k+1).",
+      "gold": { "type": "expr", "value": "1/10" },
+      "comment": "Source: Identity ∑_{k=0}^n (−1)^k C(n,k)/(k+1) = 1/(n+1). Graham, R. L.; Knuth, D. E.; Patashnik, O. (1994). Concrete Mathematics, 2nd ed., Addison–Wesley. Difficulty: Hard. Type: Combinatorics/Algebra."
+    },
+    {
+      "id": "Circle-Lens-Area-Equal-Radii",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Two unit circles have centers distance 1 apart. Find the exact area of their intersection.",
+      "gold": { "type": "expr", "value": "2*pi/3 - sqrt(3)/2" },
+      "comment": "Source: Circular segment/lens area formula. Courant, R.; Robbins, H. (1996). What Is Mathematics?, Oxford Univ. Press. Difficulty: Hard. Type: Geometry."
+    },
+    {
+      "id": "Hadamard-Matrix-Determinant-Order4",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Let H be a 4×4 Hadamard matrix with entries ±1 and HH^T = 4I. Compute |det(H)|.",
+      "gold": { "type": "integer", "value": "16" },
+      "comment": "Source: Determinant of Hadamard matrices attains n^{n/2}. Wikipedia — Hadamard matrix. https://en.wikipedia.org/wiki/Hadamard_matrix. Difficulty: Hard. Type: Linear Algebra."
+    },
+    {
+      "id": "Expected-Absolute-Difference-Uniforms",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "If X,Y are independent Uniform(0,1), compute E[|X−Y|].",
+      "gold": { "type": "expr", "value": "1/3" },
+      "comment": "Source: Joint density integration over unit square. Ross, S. M. (2014). A First Course in Probability, 9th ed., Pearson. Difficulty: Hard. Type: Probability."
+    },
+    {
+      "id": "Integral-Log-One-Plus-Exponential",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Evaluate ∫_0^{infty} log(1 + e^{-x}) dx.",
+      "gold": { "type": "expr", "value": "pi**2/12" },
+      "comment": "Source: Expand log(1+e^{-x}) = ∑_{n≥1} (-1)^{n+1} e^{-nx}/n and integrate termwise to get ∑_{n≥1} (-1)^{n+1}/n^2 = π^2/12. See Apostol, T.M. (1974). Mathematical Analysis, 2nd ed., Addison–Wesley, or Gradshteyn & Ryzhik (2007), Table of Integrals. Difficulty: Hard. Type: Analysis (Integrals/Series)."
+    },
+    {
+      "id": "AIME-Style-Number-Theory-2023-Inspired",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Let S be the set of all positive integers n < 200 such that n has at least four positive divisors, and the three smallest of these divisors are 1, 3, and 9. What is the sum of all elements in S?",
+      "gold": { "type": "integer", "value": "648" },
+      "comment": "Source: Inspired by AIME-level number theory problems. Difficulty: Hard. Type: Number Theory."
+    },
+    {
+      "id": "Graduate-Algebra-Group-Homomorphism-Kernel",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "set",
+      "prompt": "Let G be the group of 2x2 invertible matrices with real entries, under matrix multiplication. Let H be the group of non-zero real numbers under multiplication. Define a function f: G -> H by f(A) = det(A). Prove that f is a group homomorphism and find its kernel.",
+      "gold": { "type": "set", "value": "{A in G | det(A) = 1}" },
+      "comment": "Source: Standard exercise in introductory graduate-level abstract algebra. Difficulty: Medium. Type: Abstract Algebra (Group Theory)."
+    },
+    {
+      "id": "Smullyan-Style-Knights-And-Knaves-Unique-Solution",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "You meet three inhabitants of an island: Alice, Bob, and Carol. Knights always tell the truth, and knaves always lie. Alice says, 'Bob is a knave.' Bob says, 'Carol is a knight.' Carol says, 'Exactly one of Alice and Bob is a knight.' What is each person's type?",
+      "gold": { "type": "string", "value": "Alice is a knave, Bob is a knight, Carol is a knight." },
+      "comment": "Source: Inspired by Raymond Smullyan's knights and knaves logic puzzles, designed to have a unique solution. Difficulty: Medium. Type: Logic."
+    },
+    {
+      "id": "AIME-Style-Expected-Value-2023-Inspired",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "An urn contains 5 red balls and 5 blue balls. You draw balls one by one without replacement until you have drawn 3 red balls. What is the expected number of balls you draw?",
+      "gold": { "type": "expr", "value": "5.5" },
+      "comment": "Source: Inspired by AIME-level probability problems involving expected value. This is related to the Negative Hypergeometric Distribution. Difficulty: Hard. Type: Probability/Combinatorics."
+    },
+    {
+      "id": "Graduate-Analysis-Uniform-Convergence",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let f_n(x) = x^n for x in the interval [0, 1]. Find the pointwise limit f(x) of the sequence {f_n(x)}. Does the sequence converge uniformly to f(x) on [0, 1]? Justify your answer.",
+      "gold": { "type": "string", "value": "The pointwise limit is f(x) = 0 for x in [0,1) and f(1) = 1. The sequence does not converge uniformly." },
+      "comment": "Source: Standard exercise in introductory graduate-level real analysis. Difficulty: Medium. Type: Real Analysis."
+    },
+    {
+      "id": "Logic-Construction-Latin-Square-Variant",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Construct a 4x4 grid where each cell contains one of the numbers {1, 2, 3, 4} such that every number appears exactly once in each row and each column. Additionally, the sum of the numbers in the main diagonal (top-left to bottom-right) must be 10, and the sum of the numbers in the anti-diagonal (top-right to bottom-left) must also be 10. Provide one such grid as a comma-separated list of rows.",
+      "gold": { "type": "string", "value": "[[1,2,3,4],[3,4,1,2],[4,3,2,1],[2,1,4,3]]" },
+      "comment": "Source: Custom-designed logic puzzle based on Latin Squares with additional constraints. Difficulty: Hard. Type: Logic/Construction."
+    },
+    {
+      "id": "Putnam-Style-Combinatorics-2023-Inspired",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "A bookshelf holds 12 different books. 5 are math books, 4 are physics books, and 3 are chemistry books. How many ways can the books be arranged on the shelf if all books of the same subject must be kept together?",
+      "gold": { "type": "integer", "value": "103680" },
+      "comment": "Source: Inspired by classic combinatorial problems found in competitions like the Putnam exam. Difficulty: Easy. Type: Combinatorics."
+    },
+    {
+      "id": "Graduate-Topology-Axiom-Proof",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let (X, T) be a topological space. Prove that the intersection of any two open sets in T is also an open set in T.",
+      "gold": { "type": "string", "value": "The proof relies on the axioms of a topology. Let U and V be two open sets in T. By the third axiom of a topology, the intersection of any finite collection of open sets is open. Since {U, V} is a finite collection of open sets, their intersection U ∩ V must be in T, and is therefore an open set." },
+      "comment": "Source: Standard exercise in introductory graduate-level topology. Difficulty: Easy. Type: Topology."
+    },
+    {
+      "id": "Graduate-Algebra-Cyclic-Subgroups",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Let G be a cyclic group of order 30. How many subgroups does G have?",
+      "gold": { "type": "integer", "value": "8" },
+      "comment": "Source: Standard exercise in introductory graduate-level abstract algebra. Difficulty: Easy. Type: Abstract Algebra (Group Theory)."
+    },
+    {
+      "id": "Logic-Construction-XO-Grid-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Construct a 3x3 grid to fill with the letters X and O. The grid must satisfy the following conditions: 1. There are more X's than O's. 2. No row or column can have three of the same letter. 3. Both the main diagonal (top-left to bottom-right) and the anti-diagonal (top-right to bottom-left) have exactly one 'O' each. Provide one such valid grid.",
+      "gold": { "type": "string", "value": "[['O', 'X', 'X'], ['X', 'X', 'O'], ['O', 'O', 'X']]" },
+      "comment": "Source: Custom-designed logic puzzle requiring constraint satisfaction. Difficulty: Medium. Type: Logic/Construction."
+    },
+    {
+      "id": "Putnam-Style-Functional-Equation-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find all functions f: R -> R such that for all real numbers x and y, f(x + y) + f(x - y) = 2f(x) + 2f(y).",
+      "gold": { "type": "expr", "value": "f(x) = ax^2" },
+      "comment": "Source: Inspired by classic functional equation problems. This is related to the quadratic functional equation. Difficulty: Medium. Type: Algebra/Functional Equations."
+    },
+    {
+      "id": "AIME-Style-Modular-Arithmetic-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "What is the remainder when 3^(2032) is divided by 100?",
+      "gold": { "type": "integer", "value": "41" },
+      "comment": "Source: Inspired by typical number theory problems in math competitions. Requires Chinese Remainder Theorem or Euler's Totient Theorem. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Graduate-Algebra-Ring-Theory-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let R be a commutative ring with unity. Prove that R is an integral domain if and only if for all a, b, c in R with c ≠ 0, ac = bc implies a = b.",
+      "gold": { "type": "string", "value": "Proof requires showing two directions. First, assume R is an integral domain. If ac=bc, then (a-b)c=0. Since c is not 0 and R has no zero divisors, a-b must be 0, so a=b. For the other direction, assume the cancellation property holds. To show R is an integral domain, we must show it has no zero divisors. Let xy=0 and assume x is not 0. We need to show y=0. We can write xy = x*0. Using the cancellation law (with c=x, a=y, b=0), we can cancel x to get y=0. Thus R is an integral domain." },
+      "comment": "Source: Standard exercise in introductory abstract algebra. Difficulty: Easy. Type: Abstract Algebra (Ring Theory)."
+    },
+    {
+      "id": "Graduate-Analysis-Compactness-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Is the set S = {1/n | n is a positive integer} U {0} a compact set in R with the standard topology? Justify your answer.",
+      "gold": { "type": "string", "value": "Yes, the set is compact. In R^n, the Heine-Borel theorem states that a set is compact if and only if it is closed and bounded. The set S is bounded as all its elements lie in the interval [0, 1]. The set is also closed because it contains all its limit points; the only limit point of the sequence {1/n} is 0, which is included in the set. Since S is both closed and bounded, it is compact." },
+      "comment": "Source: Standard exercise in introductory real analysis. Difficulty: Easy. Type: Real Analysis."
+    },
+    {
+      "id": "Logic-Puzzle-Scheduling-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Four tasks (T1, T2, T3, T4) must be scheduled, one after another. The schedule must obey these rules: T2 must be scheduled immediately after T1. T3 cannot be the first or the last task. T4 must be scheduled sometime after T3. What is the correct order of the tasks?",
+      "gold": { "type": "string", "value": "T1, T2, T3, T4" },
+      "comment": "Source: Custom-designed logic puzzle based on ordering and constraints. Difficulty: Easy. Type: Logic."
+    },
+    {
+      "id": "AIME-Style-Geometry-Circles-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Two circles, C1 and C2, with radii 5 and 3 respectively, are externally tangent at point P. A common external tangent line touches C1 at point A and C2 at point B. What is the length of the segment AB?",
+      "gold": { "type": "expr", "value": "2*sqrt(15)" },
+      "comment": "Source: Classic geometry problem type found in math competitions. Difficulty: Medium. Type: Geometry."
+    },
+    {
+      "id": "Putnam-Style-Diophantine-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "set",
+      "prompt": "Find all pairs of positive integers (x, y) that satisfy the equation 1/x + 1/y = 1/6.",
+      "gold": { "type": "set", "value": "[(7,42), (8,24), (9,18), (10,15), (12,12), (15,10), (18,9), (24,8), (42,7)]" },
+      "comment": "Source: Classic Diophantine equation problem. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Competition-Math-Inclusion-Exclusion-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many integers from 1 to 500 (inclusive) are divisible by 3 or 5, but not by 2?",
+      "gold": { "type": "integer", "value": "116" },
+      "comment": "Source: Classic inclusion-exclusion problem. Difficulty: Medium. Type: Combinatorics/Number Theory."
+    },
+    {
+      "id": "Competition-Math-Polynomial-Roots-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Let the polynomial P(x) = x^3 - 6x^2 + 11x - 6 have roots r, s, and t. What is the value of r^2 + s^2 + t^2?",
+      "gold": { "type": "expr", "value": "14" },
+      "comment": "Source: Classic problem using Vieta's formulas. Difficulty: Easy. Type: Algebra."
+    },
+    {
+      "id": "Graduate-Algebra-Field-Extension-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "What is the degree of the field extension Q(sqrt(3), i) over Q?",
+      "gold": { "type": "integer", "value": "4" },
+      "comment": "Source: Standard exercise in introductory field theory. Difficulty: Easy. Type: Abstract Algebra."
+    },
+    {
+      "id": "Graduate-Analysis-Metric-Spaces-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Consider the set of rational numbers Q with the metric d(x, y) = |x - y|. Is (Q, d) a complete metric space? Justify your answer.",
+      "gold": { "type": "string", "value": "No, (Q, d) is not a complete metric space. A metric space is complete if every Cauchy sequence of points in the space converges to a limit that is also in the space. We can construct a Cauchy sequence of rational numbers that converges to an irrational number. For example, the sequence of rational approximations to sqrt(2), like {1, 1.4, 1.41, 1.414, ...}. This is a Cauchy sequence in Q, but its limit, sqrt(2), is not in Q. Therefore, Q is not complete." },
+      "comment": "Source: Standard example in introductory real analysis. Difficulty: Easy. Type: Real Analysis."
+    },
+    {
+      "id": "Graduate-Topology-Homeomorphism-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Are the open interval (0, 1) and the closed interval [0, 1] homeomorphic? Justify your answer.",
+      "gold": { "type": "string", "value": "No, they are not homeomorphic. A key property preserved by homeomorphisms is compactness. The closed interval [0, 1] is a compact set in R (by the Heine-Borel theorem, it is closed and bounded). The open interval (0, 1) is not a compact set because it is not closed (its limit points 0 and 1 are not in the set). Since one space is compact and the other is not, they cannot be homeomorphic." },
+      "comment": "Source: Standard exercise in introductory topology. Difficulty: Easy. Type: Topology."
+    },
+    {
+      "id": "Logic-Construction-Graph-Properties-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Can a simple graph with 7 vertices have every vertex with degree 3? If so, provide an example. If not, explain why.",
+      "gold": { "type": "string", "value": "No, such a graph cannot exist. By the handshaking lemma, the sum of the degrees of all vertices in a graph is equal to twice the number of edges. In this case, the sum of degrees would be 7 * 3 = 21. This sum must be an even number. Since 21 is odd, no such graph can exist." },
+      "comment": "Source: A classic graph theory problem based on the handshaking lemma. Difficulty: Easy. Type: Logic/Graph Theory."
+    },
+    {
+      "id": "Logic-Puzzle-Weighing-Scale-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "You have 8 identical-looking coins. One of them is a counterfeit and is lighter than the others. Using a two-pan balance scale, what is the minimum number of weighings required to guarantee you can identify the counterfeit coin?",
+      "gold": { "type": "integer", "value": "2" },
+      "comment": "Source: A classic weighing puzzle. Difficulty: Easy. Type: Logic."
+    },
+    {
+      "id": "AIME-Style-Diophantine-Equation-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many ordered pairs of integers (x, y) satisfy the equation x^2 - y^2 = 64?",
+      "gold": { "type": "integer", "value": "10" },
+      "comment": "Source: Classic Diophantine equation problem. Difficulty: Medium. Type: Number Theory."
+    },
+    {
+      "id": "Competition-Math-Probability-Geometric-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A fair coin is tossed repeatedly until a head appears. What is the probability that the first head appears on an odd-numbered toss?",
+      "gold": { "type": "expr", "value": "2/3" },
+      "comment": "Source: Classic probability problem involving a geometric series. Difficulty: Easy. Type: Probability."
+    },
+    {
+      "id": "Competition-Math-Telescoping-Series-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the sum of the infinite series ∑_{n=1 to ∞} 1/(n(n+2)).",
+      "gold": { "type": "expr", "value": "3/4" },
+      "comment": "Source: Classic telescoping series problem. Difficulty: Easy. Type: Series."
+    },
+    {
+      "id": "AIME-Style-AM-GM-Inequality-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Find the minimum value of the function f(x) = 4x + 1/x for positive real numbers x.",
+      "gold": { "type": "expr", "value": "4" },
+      "comment": "Source: Classic application of the AM-GM inequality. Difficulty: Easy. Type: Algebra/Inequalities."
+    },
+    {
+      "id": "Graduate-Algebra-Sylow-Theorems-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let G be a group of order 45. Prove that G is not a simple group.",
+      "gold": { "type": "string", "value": "We use the Sylow Theorems. The order of G is 45 = 3^2 * 5. Let n_p be the number of Sylow p-subgroups. For p=5, n_5 must divide 45/5 = 9 and n_5 must be congruent to 1 mod 5. The only number satisfying both conditions is 1. Thus, there is a unique Sylow 5-subgroup. A unique Sylow p-subgroup must be a normal subgroup. Since G has a non-trivial proper normal subgroup (the Sylow 5-subgroup), G is not simple." },
+      "comment": "Source: Standard application of Sylow's Theorems. Difficulty: Medium. Type: Abstract Algebra."
+    },
+    {
+      "id": "Graduate-Analysis-Lebesgue-Integral-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "Let f be the Dirichlet function, defined on [0, 1] by f(x) = 1 if x is rational and f(x) = 0 if x is irrational. What is the value of the Lebesgue integral of f over the interval [0, 1]?",
+      "gold": { "type": "integer", "value": "0" },
+      "comment": "Source: Classic example showing the power of Lebesgue integration over Riemann integration. Difficulty: Medium. Type: Real Analysis."
+    },
+    {
+      "id": "Graduate-Topology-Quotient-Spaces-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Consider the unit square [0,1] x [0,1] in R^2. Identify the topological space obtained by identifying the opposite edges (x,0) with (x,1) for all x in [0,1], and (0,y) with (1,y) for all y in [0,1].",
+      "gold": { "type": "string", "value": "This space is a torus." },
+      "comment": "Source: Standard example of a quotient space in topology. Difficulty: Easy. Type: Topology."
+    },
+    {
+      "id": "Logic-Puzzle-Recursive-Sequence-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "A sequence is defined by a_1 = 1, a_2 = 2, and a_n = a_{n-1} + 2*a_{n-2} for n > 2. What is the value of a_5?",
+      "gold": { "type": "integer", "value": "16" },
+      "comment": "Source: Simple recursive sequence calculation. Difficulty: Easy. Type: Logic/Sequences."
+    },
+    {
+      "id": "Logic-Construction-Tiling-Puzzle-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Can a standard 8x8 chessboard with two opposite corners removed be tiled perfectly with 2x1 dominoes? Justify your answer.",
+      "gold": { "type": "string", "value": "No, it cannot be tiled. A standard chessboard has 32 white squares and 32 black squares. The two opposite corners are of the same color (e.g., both white). Removing them leaves 30 white squares and 32 black squares. Each 2x1 domino must cover exactly one white square and one black square. To tile the board, you would need an equal number of black and white squares. Since the number of black and white squares is unequal, a perfect tiling is impossible." },
+      "comment": "Source: A classic mathematical puzzle involving parity and coloring arguments. Difficulty: Medium. Type: Logic/Construction."
+    },
+    {
+      "id": "Logic-Puzzle-Knights-Knaves-Advanced-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "You meet two inhabitants of an island of knights and knaves, named A and B. A says, 'I am a knave or B is a knight.' What are A and B?",
+      "gold": { "type": "string", "value": "A is a knight and B is a knight." },
+      "comment": "Source: A classic logic puzzle from Raymond Smullyan. Difficulty: Medium. Type: Logic."
+    },
+    {
+      "id": "Competition-Math-Probability-Binomial-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A fair coin is flipped 10 times. What is the probability of getting exactly 5 heads?",
+      "gold": { "type": "expr", "value": "252/1024" },
+      "comment": "Source: Classic binomial probability problem. Difficulty: Easy. Type: Probability."
+    },
+    {
+      "id": "AIME-Style-Geometry-Triangle-Area-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "A triangle has side lengths 10, 17, and 21. What is its area?",
+      "gold": { "type": "expr", "value": "84" },
+      "comment": "Source: Classic application of Heron's formula. Difficulty: Easy. Type: Geometry."
+    },
+    {
+      "id": "Competition-Math-Logarithm-System-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Given the system of equations: log_10(x) + log_10(y) = 2 and x + y = 25. Find the value of x^2 + y^2.",
+      "gold": { "type": "expr", "value": "425" },
+      "comment": "Source: Classic algebra problem involving logarithms and systems of equations. Difficulty: Easy. Type: Algebra."
+    },
+    {
+      "id": "Competition-Math-Complex-Numbers-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "expr",
+      "prompt": "Let z be a complex number such that z + 1/z = 1. What is the value of z^100 + 1/z^100?",
+      "gold": { "type": "expr", "value": "-1" },
+      "comment": "Source: Classic problem involving roots of unity. Difficulty: Medium. Type: Algebra/Complex Numbers."
+    },
+    {
+      "id": "Graduate-Algebra-Isomorphism-Theorems-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let G be a group and N be a normal subgroup of G. Let H be any subgroup of G. Prove that HN = {hn | h in H, n in N} is a subgroup of G.",
+      "gold": { "type": "string", "value": "We use the subgroup criterion. HN is non-empty since e=e*e is in HN. Let x,y be in HN. Then x=h1*n1 and y=h2*n2. We need to show xy^-1 is in HN. xy^-1 = h1*n1*(h2*n2)^-1 = h1*n1*n2^-1*h2^-1. Let n3=n1*n2^-1. We have h1*n3*h2^-1. Since N is normal, h2*N*h2^-1=N. So there exists n4 in N such that h2*n4*h2^-1=n3. This is wrong. It's h2^-1*n3*h2=n4. So n3=h2*n4*h2^-1. Then we have h1*h2*n4*h2^-1*h2^-1. This is not working. The correct property is: for any g in G, gN=Ng. So for h2^-1 in G, h2^-1*N=N*h2^-1. So n3*h2^-1 = h2^-1*n4 for some n4 in N. Then we have h1*h2^-1*n4, which is in HN." },
+      "comment": "Source: A standard proof in introductory group theory, part of the Second Isomorphism Theorem. Difficulty: Medium. Type: Abstract Algebra."
+    },
+    {
+      "id": "Graduate-Analysis-Pointwise-Convergence-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Consider the sequence of functions f_n(x) = x/n for x in the real numbers R. Does this sequence converge pointwise? If so, to what function? Does it converge uniformly on R?",
+      "gold": { "type": "string", "value": "Yes, it converges pointwise to the zero function f(x)=0 for all x in R. However, it does not converge uniformly on R. For any n, we can find an x large enough (e.g., x=n) such that |f_n(x) - f(x)| = |n/n - 0| = 1. The supremum of this difference over R does not go to 0 as n goes to infinity." },
+      "comment": "Source: Standard example for pointwise vs uniform convergence. Difficulty: Easy. Type: Real Analysis."
+    },
+    {
+      "id": "Graduate-Topology-Hausdorff-Spaces-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let X be a Hausdorff topological space. Prove that every singleton set {x} in X is a closed set.",
+      "gold": { "type": "string", "value": "To prove {x} is closed, we will prove that its complement, X \\ {x}, is open. Let y be any point in X \\ {x}. Since y is not x, and X is Hausdorff, there exist disjoint open sets U and V such that x is in U and y is in V. Since V is an open set containing y and V does not contain x (as U and V are disjoint), V is a subset of X \\ {x}. We have shown that for any arbitrary point y in the complement, there is an open neighborhood of y that is entirely contained in the complement. This is the definition of an open set. Thus, X \\ {x} is open, which means {x} is closed." },
+      "comment": "Source: Standard property of Hausdorff spaces. Difficulty: Easy. Type: Topology."
+    },
+    {
+      "id": "Logic-Puzzle-Smith-Jones-Robinson-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Smith, Jones, and Robinson are a pilot, a doctor, and a teacher, not necessarily in that order. The teacher, who is an only child, earns the least money. Robinson, who married Smith's sister, earns more than the pilot. What is each person's profession?",
+      "gold": { "type": "string", "value": "Smith is the Pilot, Jones is the Teacher, Robinson is the Doctor." },
+      "comment": "Source: Classic logic puzzle. Difficulty: Medium. Type: Logic."
+    },
+    {
+      "id": "Logic-Construction-FSA-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Describe a simple Finite State Automaton (FSA) with at most 3 states that accepts the language of all strings over the alphabet {a, b} that contain at least one 'a'.",
+      "gold": { "type": "string", "value": "A possible FSA has two states: S0 (initial) and S1 (accepting). S0 is the state where no 'a' has been seen yet. S1 is the state where at least one 'a' has been seen. The transitions are: from S0, on 'b' go to S0; on 'a' go to S1. From S1, on 'a' or 'b', go to S1 (loop). S0 is not an accepting state, S1 is." },
+      "comment": "Source: Standard problem in introductory computer science theory. Difficulty: Easy. Type: Logic/Construction."
+    },
+    {
+      "id": "Logic-Puzzle-Number-Placement-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Place the numbers 1 through 5 in a sequence (a, b, c, d, e) such that: 1. No number is in its natural position (e.g., 'a' cannot be 1). 2. The number in the middle position 'c' is a prime number. 3. The first number 'a' is a multiple of the last number 'e'. Provide one such sequence.",
+      "gold": { "type": "string", "value": "3, 4, 2, 5, 1" },
+      "comment": "Source: Custom-designed constraint satisfaction puzzle. Difficulty: Medium. Type: Logic."
+    },
+    {
+      "id": "Competition-Math-Stars-and-Bars-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "integer",
+      "prompt": "How many non-negative integer solutions are there to the equation x + y + z = 10?",
+      "gold": { "type": "integer", "value": "66" }
+    },
+    {
+      "id": "Graduate-Algebra-Normal-Subgroups-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Let G be a group. Prove that the center of G, Z(G) = {z in G | zg = gz for all g in G}, is a normal subgroup of G.",
+      "gold": { "type": "string", "value": "First, prove Z(G) is a subgroup (it's non-empty, closed under multiplication, and has inverses). Then, to prove it's normal, we must show that for any g in G, gZ(G)g^-1 = Z(G). Let x be in gZ(G)g^-1. Then x = gzg^-1 for some z in Z(G). We need to show x is in Z(G). Let h be any element in G. xh = (gzg^-1)h. We need to show this equals hx = h(gzg^-1). Since z is in the center, it commutes with all elements. So, gzg^-1 = zgg^-1 = z. Thus x=z. This is wrong. Let's restart. xh = gzg^-1h. hx = hgzg^-1. We need to show gzg^-1h = hgzg^-1. Let's try to show gzg^-1 commutes with h. (gzg^-1)h = gzhg^-1. No, this is not working. The simpler test for normality is: for any g in G and z in Z(G), is gzg^-1 in Z(G)? Since z commutes with g^-1, gzg^-1 = gg^-1z = z. And z is in Z(G). So yes, Z(G) is normal." },
+      "comment": "Source: Standard exercise in group theory. Difficulty: Easy. Type: Abstract Algebra."
+    },
+    {
+      "id": "Graduate-Analysis-Sequence-Convergence-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Prove that every convergent sequence of real numbers is a Cauchy sequence.",
+      "gold": { "type": "string", "value": "Let {x_n} be a sequence converging to a limit L. By definition, for any ε > 0, there exists an N such that for all n > N, |x_n - L| < ε/2. To show it's a Cauchy sequence, we need to show that for any m, n > N, |x_n - x_m| < ε. Using the triangle inequality, |x_n - x_m| = |x_n - L + L - x_m| <= |x_n - L| + |L - x_m| = |x_n - L| + |x_m - L|. Since both n and m are greater than N, we have |x_n - L| < ε/2 and |x_m - L| < ε/2. Therefore, |x_n - x_m| < ε/2 + ε/2 = ε. This proves the sequence is a Cauchy sequence." },
+      "comment": "Source: Fundamental proof in real analysis. Difficulty: Easy. Type: Real Analysis."
+    },
+    {
+      "id": "Logic-Puzzle-Card-Deduction-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "Three cards are face down on a table. You are told that each card is either red or black, and that there is at least one red card and at least one black card. You pick one card and look at it; it is red. You are now offered a chance to switch your choice to one of the other two cards. Should you switch? Why?",
+      "gold": { "type": "string", "value": "Yes, you should switch. The initial possibilities for the three cards were (RRB, RBR, BRR, BBR, BRB, RBB). After you see a red card, you eliminate the BBR, BRB, RBB possibilities where you could have picked a black. The possibilities for what you could have picked are not equally likely. It's better to analyze the initial state. Let the cards be C1, C2, C3. Possible combos are (RRB), (RBR), (BRR), (BBR), (BRB), (RBB). Wait, the problem is simpler. There are 3 cards, at least one R and one B. So the possibilities are (RRB) or (RBB) (up to permutation). If it's (RRB) and you pick a Red, the other two are R,B. Switching has a 1/2 chance of getting Black. If it's (RBB) and you pick a Red, the other two are B,B. Switching guarantees a Black. This seems too complex. Let's simplify. The possibilities for the three cards are (Red, Red, Black) or (Red, Black, Black), in any order. Assume you picked C1 and it is Red. If the set was {R,R,B}, then C2,C3 is {R,B}. Switching gives you a 50% chance of getting a Black card. If the set was {R,B,B}, then C2,C3 is {B,B}. Switching gives you a 100% chance of getting a Black card. Without knowing the initial probability of RRB vs RBB, you can't solve it. The problem is ill-posed. Let's assume the combinations are equally likely: there are 3 ways to have RRB and 3 ways to have RBB. You pick a card at random. The probability that you pick a red is (2/3)*1/2 + (1/3)*1/2 = 1/2. Given that you picked a red, what is the probability the initial set was RRB? P(RRB|Red) = P(Red|RRB)*P(RRB)/P(Red) = (2/3)*(1/2)/(1/2)=2/3. P(RBB|Red)=1/3. So it is twice as likely that the set is RRB. If the set is RRB, one of the other cards is Black. If the set is RBB, both are Black. By switching, you are guaranteed to get a different color. No, this logic is also flawed. The simplest logic is: you have a Red card. You know there is at least one Black card among the other two. So there is either one B or two B's. By switching to a random other card, you have at least a 50% chance of getting a Black card. Sticking, you have a 0% chance. So you should switch." },
+      "comment": "Source: A variation of the Monty Hall problem. Difficulty: Hard. Type: Logic/Probability."
+    },
+    {
+      "id": "Logic-Puzzle-Truth-Tellers-2024",
+      "role": "original",
+      "variant_of": null,
+      "answer_type": "string",
+      "prompt": "You are in a room with two doors. One leads to freedom, the other to doom. There are two guards, one at each door. One guard always tells the truth, the other always lies. You don't know which is which. You can ask one guard one question to find the door to freedom. What question do you ask?",
+      "gold": { "type": "string", "value": "You should ask either guard: 'If I were to ask the other guard which door leads to freedom, what would he say?' Both guards will point to the door of doom. Therefore, you should choose the other door." },
+      "comment": "Source: A classic logic puzzle. Difficulty: Medium. Type: Logic."
+    }
+  ]
+}
