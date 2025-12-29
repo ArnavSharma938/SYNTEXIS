@@ -96,13 +96,14 @@ python src/main.py --evaluate --model_name mistral-math --dataset_size 4
 ```bibtex
 @misc{SharmaSyntexis,
   title={Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought},
-  author={Arnav Sharma and Drishti Sharma and Ahmed Wez and Brandon Yee},
+  author={Arnav Sharma and Drishti Sharma and Ahmed Wez},
   year={2025},
   eprint={2401.XXXXX},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  note={Presented at TBD, CortexPD Labs and Yee-Collins Research Group}
+  note={Presented at INFORMS Optimization Society Conference, CortexPD Labs}
 }
 
 ```
+
 
