@@ -3,6 +3,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+No arXiv yet, this paper has recently been accepted to the INFORMS Optimization Society Conference (OSC) 2026!
+
 ## Overview
 
 Existing benchmarks for mathematical reasoning in Large Language Models (LLMs) concentrate mainly on final answer correctness. This answer-based evaluation has a limited view of true LLM reasoning, and it doesn’t differentiate between circumstances where a correct answer comes from valid reasoning versus invalid reasoning. Thus, this paper proposes SYNTEXIS, a benchmark for end-to-end and processbased evaluation of mathematical reasoning. SYNTEXIS assesses model performance over the entire problem solving process: comprehension of a natural language prompt, autoformalization of that prompt into a structured representation, and the execution of solving it step-by-step. We propose two novel evaluation metrics: (1) Final Answer Accuracy (FAA), which uses a symbolic analysis to rigorously check for mathematical equivalence, and (2) Process Soundness Score (PSS), which employs a Process Reward Mode (PRM) to evaluate the logic of the reasoning steps in a step-by-step verification of the chain-of-thought reasoning. By separately evaluating reasoning SYNTEXIS provides more realistic evaluations of LLM mathematical reasoning by providing a review of specific failure modes.
@@ -103,3 +105,4 @@ python src/main.py --evaluate --model_name mistral-math --dataset_size 4
 }
 
 ```
+
