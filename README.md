@@ -3,7 +3,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-No arXiv yet, this paper has recently been accepted to the INFORMS Optimization Society Conference (OSC) 2026!
+No arXiv yet, this paper has recently been accepted to the INFORMS Optimization Society Conference (OSC) 2026: https://openreview.net/forum?id=741HIhxDFj!
 
 ## Overview
 
@@ -93,10 +93,12 @@ python src/main.py --evaluate --model_name mistral-math --dataset_size 4
 
 ## Citation
 
+Includes some placeholders
+
 ```bibtex
 @misc{SharmaSyntexis,
   title={Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought},
-  author={Arnav Sharma and Drishti Sharma and Ahmed Wez},
+  author={Arnav Sharma and Drishti Sharma and Ahmed Wez and Brandon Yee},
   year={2025},
   eprint={2401.XXXXX},
   archivePrefix={arXiv},
