@@ -1,9 +1,8 @@
 # Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought
-[![arXiv](https://img.shields.io/badge/arXiv-2401.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2401.XXXXX)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-No arXiv yet, this paper has recently been accepted to the INFORMS Optimization Society Conference (OSC) 2026: https://openreview.net/forum?id=741HIhxDFj!
+This paper has been accepted to the INFORMS Optimization Society Conference (OSC) 2026
 
 ## Overview
 
@@ -98,14 +97,10 @@ Includes some placeholders
 ```bibtex
 @misc{SharmaSyntexis,
   title={Benchmarking Autoformalization and Subsequent Execution of Mathematical Reasoning in Large Language Models through Chain-of-Thought},
-  author={Arnav Sharma and Drishti Sharma and Ahmed Wez and Brandon Yee},
+  author={Arnav Sharma and Drishti Sharma and Ahmed Wez},
   year={2025},
-  eprint={2401.XXXXX},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  note={Presented at INFORMS Optimization Society Conference, CortexPD Labs}
+  note={Presented at INFORMS Optimization Society Conference}
 }
-
 ```
 
 
